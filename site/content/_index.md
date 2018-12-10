@@ -1,7 +1,16 @@
 ---
-title: "Great coffee with a conscience"
-subtitle: Support sustainable farming while enjoying a cup
-image: /img/home-jumbotron.jpg
+title: "Cloudbet SEO title"
+hero:
+    heading: The easiest way to bet with bitcoin
+    subheading: Start bitcoin betting in 5 minutes
+    image: https://cdn.cloudbet.com/cloudbet-promotions-advent-calendar-bitcoin-casino-homepage-image.jpg
+offer:
+    intro: Get up to
+    reward: 5BTC
+    description: Welcome Bonus
+    link: 
+        url: /join
+        text: Join Now
 blurb:
     heading: Why Kaldi?
     text: "Kaldi is the coffee store for everyone who believes that great coffee shouldn't just taste good, it should do good too. We source all of our beans directly from small scale sustainable farmers and make sure part of the profits are reinvested in their communities."

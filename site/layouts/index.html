@@ -1,6 +1,21 @@
 {{ define "main" }}
 
-{{ partial "jumbotron" (dict "imageUrl" .Params.image "title" .Title "subtitle" .Params.subtitle) }}
+{{ partial "jumbotron" (dict "imageUrl" .Params.hero.image "title" .Params.hero.heading "subtitle" .Params.hero.subheading) }}
+
+<div>
+	<div class="bonus">
+		<div>
+			<span>{{.Params.offer.intro}}</span>
+		</div>
+		<div class="amount">
+			<span>{{.Params.offer.reward}}</span> 
+			<span>{{.Params.offer.description}}</span> 
+		</div>
+		<a class="sign-up" href="{{.Params.offer.link.url}}">
+			<button>{{.Params.offer.link.text}}</button>
+		</a>
+	</div>
+</div>
 
 {{ partial "short-text" .Params.blurb}}
 
