@@ -1,3 +1,16 @@
 baseurl = "/"
 languageCode = "en-us"
 title = "Homepage"
+
+[menu]
+    [[menu.main]]
+    identifier = "home"
+    name       = "Home"
+    url        = "/"
+    weight     = 0
+
+    [[menu.main]]
+    identifier = "about-us"
+    name       = "About Us"
+    url        = "/about-us/"
+    weight     = 1

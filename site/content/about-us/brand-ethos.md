@@ -1,5 +1,10 @@
 ---
-title: "Values"
+title: "Brand Ethos"
+menu:
+  main:
+    title: "how to use menus in templates"
+    parent: "about-us"
+    weight: 130
 image: /img/about-jumbotron.jpg
 values:
   - heading: "Shade-grown coffee"

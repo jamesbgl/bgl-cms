@@ -5,15 +5,24 @@
 		<img src="https://cdn.cloudbet.com/images/logo.png" alt="Cloudbet logo" class="br0 db mb0 w-100"/>
 	</a>
 
-	<!-- Primary Nav -->
-	<ul class="flex b grey-3">
-		<li><a href="/products" class="pa3 no-underline db">Products</a></li>
-
-		<li><a href="/values" class="pa3 no-underline db">Values</a></li>
-
-		<li><a href="/post" class="pa3 no-underline db">Blog</a></li>
-
-		<li><a href="/contact" class="pa3 no-underline db">Contact</a></li>
-	</ul>
+    <ul class="pure-menu-list flex b grey-3">
+      {{ range .Site.Menus.main }}
+      {{ if .HasChildren }}
+        <li class="pure-menu-item pure-menu-has-children">
+          <a class="pure-menu-link" href="#">{{ .Pre }}{{ .Name }}</a>
+          <ul class="pure-menu-children">
+            {{ range .Children }}
+            <li class="pure-menu-item">
+              <a href="{{ .URL }}">{{ .Name }}</a>
+            </li>
+            {{ end }}
+          </ul>
+      {{else}}
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="{{ .URL }}">{{ .Pre }}{{ .Name }}</a>
+      {{end}}
+        </li>
+      {{end}}
+    </ul>
 
 </nav>
