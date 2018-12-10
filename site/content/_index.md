@@ -1,24 +1,20 @@
 ---
-title: "Cloudbet SEO title"
-hero:
-    heading: The easiest way to bet with bitcoin
-    subheading: Start bitcoin betting in 5 minutes
-    image: https://cdn.cloudbet.com/cloudbet-promotions-advent-calendar-bitcoin-casino-homepage-image.jpg
+title: Cloudbet SEO title
+blurb:
+  heading: The easiest way to bet with bitcoin
+  image: /img/about-single-origin.jpg
+  subheading: Start bitcoin betting in 5 minutes
 offer:
-    intro: Get up to
-    reward: 5BTC
-    description: Welcome Bonus
-    link: 
-        url: /join
-        text: Join Now
+  description: Welcome Bonus
+  intro: Get up to
+  link:
+    text: Join Now
+    url: /join
+  reward: 5BTC
 features:
-    - image: img/illustrations-coffee.svg
-      link: 
-        url: /join
-        text: Join Now
-    - image: /img/illustrations-coffee-gear.svg
-      link: 
-        url: /join
-        text: Join Now
+  - image: /img/about-reinvest-profits.jpg
+    link:
+      text: sgsdgdsg
+      url: fsf
 ---
 
